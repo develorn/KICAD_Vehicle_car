@@ -1,4 +1,4 @@
-update=2014-10-22 12:21:24
+update=2014-10-31 11:06:09
 version=1
 last_client=eeschema
 [cvpcb]
@@ -85,3 +85,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=stm32
+LibName32=H_Bridge
