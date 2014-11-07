@@ -1,4 +1,4 @@
-update=2014-11-04 10:42:57
+update=2014-11-06 13:48:42
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -38,6 +38,7 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=lqfp
+LibName18=Switches_Buttons
 LibDir=
 [general]
 version=1
