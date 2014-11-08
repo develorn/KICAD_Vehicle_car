@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-11-08 09:13:25
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-11-09 00:44:57
 
 BeginCmp
 TimeStamp = /54491AA5;
@@ -99,6 +99,13 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /545E0CFE;
+Reference = DR1;
+ValeurCmp = DRILL_6MM_3MM;
+IdModule  = DRILL_6mm_3mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /544A44AF;
 Reference = P1;
 ValeurCmp = SWD;
@@ -166,6 +173,13 @@ TimeStamp = /545DD0AC;
 Reference = P10;
 ValeurCmp = Length_sen;
 IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /545EAACE;
+Reference = P11;
+ValeurCmp = GND;
+IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
