@@ -1,6 +1,6 @@
-update=2014-11-06 13:48:42
+update=2014-11-08 09:18:28
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -42,6 +42,11 @@ LibName18=Switches_Buttons
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -83,8 +88,3 @@ LibName29=contrib
 LibName30=valves
 LibName31=stm32
 LibName32=H_Bridge
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
