@@ -856,7 +856,7 @@
   )
 
   (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 545B7977)
-    (at 258.5 94 180)
+    (at 262 93.5 180)
     (path /54491DAC)
     (attr smd)
     (fp_text reference D1 (at 0 0 180) (layer Opisowa_Gorna)
@@ -887,7 +887,7 @@
   )
 
   (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 545EA652)
-    (at 258.5 98)
+    (at 262 97.5)
     (path /54491D9D)
     (attr smd)
     (fp_text reference R1 (at 0 0) (layer Opisowa_Gorna)

@@ -57,7 +57,7 @@
     (pad_drill 3)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFBBF)
+    (visible_elements 7FFFFBFF)
     (pcbplotparams
       (layerselection 3178497)
       (usegerberextensions true)
@@ -1226,7 +1226,7 @@
     )
   )
 
-  (module PIN_ARRAY-6X1 (layer Gorna) (tedit 41402119) (tstamp 545B79FB)
+  (module PIN_ARRAY-6X1 (layer Gorna) (tedit 54626753) (tstamp 545B79FB)
     (at 262 156 180)
     (descr "Connecteur 6 pins")
     (tags "CONN DEV")
@@ -1234,7 +1234,7 @@
     (fp_text reference P1 (at 0 -2.159 180) (layer Opisowa_Gorna)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value SWD (at 0 2.159 180) (layer Opisowa_Gorna) hide
+    (fp_text value SWD (at 0 2.159 180) (layer Opisowa_Gorna)
       (effects (font (size 1.016 0.889) (thickness 0.2032)))
     )
     (fp_line (start -7.62 1.27) (end -7.62 -1.27) (layer Opisowa_Gorna) (width 0.3048))
