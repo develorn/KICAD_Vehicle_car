@@ -5,7 +5,7 @@
     (no_connects 124)
     (area 172.921429 86.121 295.864286 159.379)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 0)
     (zones 0)
     (modules 43)
@@ -33,6 +33,10 @@
 
   (setup
     (last_trace_width 0.254)
+    (user_trace_width 0.254)
+    (user_trace_width 0.508)
+    (user_trace_width 0.762)
+    (user_trace_width 1.016)
     (trace_clearance 0.254)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -1897,6 +1901,9 @@
     )
   )
 
+  (gr_text "not fitted\n" (at 259.5 151.5) (layer Gorna)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_line (start 242.5 106) (end 226.5 90) (angle 90) (layer Rysunkowa) (width 0.2))
   (gr_line (start 269 132.5) (end 242.5 106) (angle 90) (layer Rysunkowa) (width 0.2))
   (gr_line (start 246 155.5) (end 269 132.5) (angle 90) (layer Rysunkowa) (width 0.2))
