@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "24 nov 2014"
+Date "26 nov 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1025,22 +1025,6 @@ Wire Notes Line
 	3650 550  3650 2950
 Text Notes 2550 700  0    59   ~ 12
 H_BRDGE\n
-Wire Wire Line
-	9900 6050 10000 6050
-Wire Wire Line
-	9900 6150 10000 6150
-Wire Wire Line
-	9900 6250 10000 6250
-Wire Wire Line
-	9900 6350 10000 6350
-Text GLabel 10000 6050 2    39   Input ~ 0
-LED1
-Text GLabel 10000 6150 2    39   Input ~ 0
-LED2
-Text GLabel 10000 6250 2    39   Input ~ 0
-LED3
-Text GLabel 10000 6350 2    39   Input ~ 0
-LED4
 Wire Notes Line
 	5750 550  5750 2200
 Text Notes 4500 700  0    59   ~ 12
@@ -1074,9 +1058,7 @@ $EndComp
 Wire Wire Line
 	750  6850 750  6750
 Wire Wire Line
-	6900 4200 6800 4200
-Text GLabel 6800 4200 0    39   Input ~ 0
-3V3
+	6500 4200 6900 4200
 $Comp
 L STM32F100RB U3
 U 1 1 5447853B
@@ -1575,4 +1557,17 @@ Wire Wire Line
 	1100 4950 1600 4950
 Wire Wire Line
 	1600 4950 1600 4800
+$Comp
+L +3,3V #PWR051
+U 1 1 5474EAF4
+P 6500 4150
+F 0 "#PWR051" H 6500 4110 30  0001 C CNN
+F 1 "+3,3V" H 6500 4260 30  0000 C CNN
+F 2 "~" H 6500 4150 60  0000 C CNN
+F 3 "~" H 6500 4150 60  0000 C CNN
+	1    6500 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4200 6500 4150
 $EndSCHEMATC
