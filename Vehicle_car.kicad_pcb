@@ -3,7 +3,7 @@
   (general
     (links 114)
     (no_connects 0)
-    (area 172.921429 97.149999 295.864286 148.250001)
+    (area 197.549999 97.149999 272.650001 148.250001)
     (thickness 1.6)
     (drawings 8)
     (tracks 1017)
@@ -15,7 +15,7 @@
   (page A3)
   (layers
     (15 Gorna signal)
-    (0 Dolna signal)
+    (0 Dolna signal hide)
     (16 B.Adhes user)
     (17 F.Adhes user)
     (18 B.Paste user)
@@ -85,7 +85,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
