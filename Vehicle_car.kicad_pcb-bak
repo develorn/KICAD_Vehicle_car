@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 172.921429 97.149999 295.864286 148.250001)
     (thickness 1.6)
-    (drawings 11)
+    (drawings 8)
     (tracks 1013)
     (zones 0)
     (modules 35)
@@ -14,8 +14,8 @@
 
   (page A3)
   (layers
-    (15 Gorna signal)
-    (0 Dolna signal)
+    (15 Gorna signal hide)
+    (0 Dolna signal hide)
     (16 B.Adhes user)
     (17 F.Adhes user hide)
     (18 B.Paste user)
@@ -32,7 +32,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.254)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -61,7 +61,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFCF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 3178497)
       (usegerberextensions true)
@@ -172,10 +172,10 @@
     (add_net SWDO)
   )
 
-  (module XT-4.88mmTHT (layer Gorna) (tedit 54737E95) (tstamp 545B787B)
+  (module XT-4.88mmTHT (layer Gorna) (tedit 5485F916) (tstamp 545B787B)
     (at 237.4 136.4)
     (path /5448F932)
-    (fp_text reference X1 (at 0.8 -2.5) (layer F.SilkS)
+    (fp_text reference X1 (at 0.2 -2.775) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 8M (at -2.2 -2.5) (layer F.SilkS) hide
@@ -195,11 +195,11 @@
     )
   )
 
-  (module SSOP24   locked (layer Gorna) (tedit 531CA7D0) (tstamp 545B789F)
+  (module SSOP24   locked (layer Gorna) (tedit 5485FA0B) (tstamp 545B789F)
     (at 229.4 110.1 180)
     (path /5453615F)
     (attr smd)
-    (fp_text reference U2 (at 0 0.6985 180) (layer F.SilkS)
+    (fp_text reference U2 (at 5.9 0.625 180) (layer F.SilkS)
       (effects (font (size 1.00076 1.00076) (thickness 0.1397)))
     )
     (fp_text value TB6612 (at 0 -0.6985 180) (layer F.SilkS)
@@ -316,14 +316,14 @@
     )
   )
 
-  (module SM1206 (layer Dolna) (tedit 42806E24) (tstamp 546F1903)
+  (module SM1206 (layer Dolna) (tedit 5485F92E) (tstamp 546F1903)
     (at 228.6 136.35 270)
     (path /5448F8B1)
     (attr smd)
-    (fp_text reference C9 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C9 (at 0.05 1.95 270) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
-    (fp_text value 20pF (at 0 0 270) (layer B.SilkS) hide
+    (fp_text value 20pF (at -0.375 -2.25 270) (layer B.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start -2.54 1.143) (end -2.54 -1.143) (layer B.SilkS) (width 0.127))
@@ -347,11 +347,11 @@
     )
   )
 
-  (module SM1206 (layer Dolna) (tedit 42806E24) (tstamp 545B7917)
+  (module SM1206 (layer Dolna) (tedit 5485FA2F) (tstamp 545B7917)
     (at 229.75 108.75 90)
     (path /545376BD)
     (attr smd)
-    (fp_text reference C6 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference C6 (at 3.85 -0.25 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 100nF (at 0 0 90) (layer B.SilkS) hide
@@ -378,11 +378,11 @@
     )
   )
 
-  (module SM1206 (layer Dolna) (tedit 42806E24) (tstamp 5474D433)
+  (module SM1206 (layer Dolna) (tedit 5485FA35) (tstamp 5474D433)
     (at 226.25 108.75 90)
     (path /545374CF)
     (attr smd)
-    (fp_text reference C5 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference C5 (at 3.8 -0.325 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 100nF (at 0 0 90) (layer B.SilkS) hide
@@ -409,14 +409,14 @@
     )
   )
 
-  (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 545B792F)
+  (module SM1206 (layer Gorna) (tedit 5485F8FF) (tstamp 545B792F)
     (at 227.7 126.85)
     (path /544A3C0C)
     (attr smd)
-    (fp_text reference R8 (at 0 0) (layer F.SilkS)
+    (fp_text reference R8 (at 1.675 -2.025) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value 510R (at 0 0) (layer F.SilkS) hide
+    (fp_text value 510R (at -3.85 -2.3) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_line (start -2.54 -1.143) (end -2.54 1.143) (layer F.SilkS) (width 0.127))
@@ -440,14 +440,14 @@
     )
   )
 
-  (module SM1206 (layer Dolna) (tedit 42806E24) (tstamp 546BA1D9)
+  (module SM1206 (layer Dolna) (tedit 5485F939) (tstamp 546BA1D9)
     (at 246.25 136.35 270)
     (path /5448F8BE)
     (attr smd)
-    (fp_text reference C8 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C8 (at -0.025 -2.325 270) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
-    (fp_text value 20pF (at 0 0 270) (layer B.SilkS) hide
+    (fp_text value 20pF (at 0 2.1 270) (layer B.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start -2.54 1.143) (end -2.54 -1.143) (layer B.SilkS) (width 0.127))
@@ -471,14 +471,14 @@
     )
   )
 
-  (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 545B7947)
+  (module SM1206 (layer Gorna) (tedit 5485F961) (tstamp 545B7947)
     (at 268.75 131.5)
     (path /544A2E75)
     (attr smd)
-    (fp_text reference C7 (at 0 0) (layer F.SilkS)
+    (fp_text reference C7 (at -2.25 -2.025) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value 100nF (at 0 0) (layer F.SilkS) hide
+    (fp_text value 100nF (at -0.075 2.175) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_line (start -2.54 -1.143) (end -2.54 1.143) (layer F.SilkS) (width 0.127))
@@ -533,11 +533,11 @@
     )
   )
 
-  (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 546BA5FE)
+  (module SM1206 (layer Gorna) (tedit 5485F9E3) (tstamp 546BA5FE)
     (at 247.5 105 270)
     (path /54491ABA)
     (attr smd)
-    (fp_text reference C4 (at 0 0 270) (layer F.SilkS)
+    (fp_text reference C4 (at 0.05 -2.275 270) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_text value 100nF (at 0 0 270) (layer F.SilkS) hide
@@ -564,14 +564,14 @@
     )
   )
 
-  (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 545B796B)
+  (module SM1206 (layer Gorna) (tedit 5485F94F) (tstamp 545B796B)
     (at 267 144.75 180)
     (path /544A37CB)
     (attr smd)
-    (fp_text reference R7 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference R7 (at 3 2.075 180) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value 100K (at 0 0 180) (layer F.SilkS) hide
+    (fp_text value 100K (at -1.65 2.025 180) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_line (start -2.54 -1.143) (end -2.54 1.143) (layer F.SilkS) (width 0.127))
@@ -595,11 +595,11 @@
     )
   )
 
-  (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 545B7977)
+  (module SM1206 (layer Gorna) (tedit 5485F9E0) (tstamp 545B7977)
     (at 244.25 105 90)
     (path /54491DAC)
     (attr smd)
-    (fp_text reference D1 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference D1 (at 0.225 -2.05 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_text value RED (at 0 0 90) (layer F.SilkS) hide
@@ -626,14 +626,14 @@
     )
   )
 
-  (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 545EA652)
+  (module SM1206 (layer Gorna) (tedit 5485F9DC) (tstamp 545EA652)
     (at 245.75 110.75 180)
     (path /54491D9D)
     (attr smd)
-    (fp_text reference R1 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference R1 (at 1.675 -2.325 180) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value 660R (at 0 0 180) (layer F.SilkS) hide
+    (fp_text value 660R (at -1.175 -2.4 180) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_line (start -2.54 -1.143) (end -2.54 1.143) (layer F.SilkS) (width 0.127))
@@ -657,13 +657,13 @@
     )
   )
 
-  (module PIN_ARRAY_8_1 (layer Gorna) (tedit 54737E32) (tstamp 545B7993)
+  (module PIN_ARRAY_8_1 (layer Gorna) (tedit 5485FA75) (tstamp 545B7993)
     (at 215 100 180)
     (path /54537A2A)
     (fp_text reference P4 (at 10.2 -0.2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value COLOR_1 (at -0.8 -2.3 180) (layer F.SilkS)
+    (fp_text value COLOR_1 (at 0 -3.575 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -11.4 1.3) (end 8.9 1.3) (layer F.SilkS) (width 0.15))
@@ -704,13 +704,13 @@
     )
   )
 
-  (module PIN_ARRAY_8_1 (layer Gorna) (tedit 54737E79) (tstamp 545B79A3)
+  (module PIN_ARRAY_8_1 (layer Gorna) (tedit 5485FA46) (tstamp 545B79A3)
     (at 215 145 180)
     (path /54537A56)
     (fp_text reference P5 (at -5.8 2.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value COLOR_2 (at 0 2.55 180) (layer F.SilkS)
+    (fp_text value COLOR_2 (at 4.75 2.675 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -11.4 1.3) (end 8.9 1.3) (layer F.SilkS) (width 0.15))
@@ -812,7 +812,7 @@
     )
   )
 
-  (module PIN_ARRAY_4x1 (layer Gorna) (tedit 54737E57) (tstamp 546B9F6B)
+  (module PIN_ARRAY_4x1 (layer Gorna) (tedit 5485FA5C) (tstamp 546B9F6B)
     (at 270 122.25 90)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
@@ -820,7 +820,7 @@
     (fp_text reference P2 (at 3.05 -2.2 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value GPS (at 0 -2 90) (layer F.SilkS)
+    (fp_text value GPS (at 0.025 -3.675 90) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 5.08 1.27) (end -5.08 1.27) (layer F.SilkS) (width 0.254))
@@ -850,7 +850,7 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer Gorna) (tedit 54737E28) (tstamp 54738734)
+  (module PIN_ARRAY_2X1 (layer Gorna) (tedit 5485FA7B) (tstamp 54738734)
     (at 199.9 113 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -858,7 +858,7 @@
     (fp_text reference P7 (at 4 2.6 90) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value "MOTOR 2" (at -0.2 2.6 90) (layer F.SilkS)
+    (fp_text value "MOTOR 2" (at -0.025 2.65 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
@@ -880,7 +880,7 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer Gorna) (tedit 54737E4F) (tstamp 5473876B)
+  (module PIN_ARRAY_2X1 (layer Gorna) (tedit 5485FA69) (tstamp 5473876B)
     (at 270 109.5 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -888,7 +888,7 @@
     (fp_text reference P3 (at 3.35 -2.1 90) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value SUPPLY (at 0 -1.905 90) (layer F.SilkS)
+    (fp_text value SUPPLY (at -0.05 -3.575 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
@@ -910,7 +910,7 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer Gorna) (tedit 54738BA5) (tstamp 546B9F76)
+  (module PIN_ARRAY_2X1 (layer Gorna) (tedit 5485FA6D) (tstamp 546B9F76)
     (at 270 102 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -918,7 +918,7 @@
     (fp_text reference P6 (at 3.65 -2.3 90) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value "MOTOR 1" (at 0 -2.2 90) (layer F.SilkS)
+    (fp_text value "MOTOR 1" (at 0.075 -3.625 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
@@ -940,7 +940,7 @@
     )
   )
 
-  (module PIN_ARRAY_1 (layer Gorna) (tedit 54737E3E) (tstamp 545B79EC)
+  (module PIN_ARRAY_1 (layer Gorna) (tedit 5485FA60) (tstamp 545B79EC)
     (at 270 114.5)
     (descr "1 pin")
     (tags "CONN DEV")
@@ -948,7 +948,7 @@
     (fp_text reference P9 (at -2.1 -0.1) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value GND (at -0.1 2.3) (layer F.SilkS)
+    (fp_text value GND (at -3.5 0 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start 1.27 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.1524))
@@ -966,7 +966,7 @@
     )
   )
 
-  (module PIN_ARRAY-6X1 (layer Gorna) (tedit 54737E65) (tstamp 545B79FB)
+  (module PIN_ARRAY-6X1 (layer Gorna) (tedit 5485FA4C) (tstamp 545B79FB)
     (at 255 145 180)
     (descr "Connecteur 6 pins")
     (tags "CONN DEV")
@@ -974,7 +974,7 @@
     (fp_text reference P1 (at 3.9 2.3 180) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value SWD (at 0 2.159 180) (layer F.SilkS)
+    (fp_text value SWD (at -0.05 2.425 180) (layer F.SilkS)
       (effects (font (size 1.016 0.889) (thickness 0.2032)))
     )
     (fp_line (start -7.62 1.27) (end -7.62 -1.27) (layer F.SilkS) (width 0.3048))
@@ -1013,13 +1013,13 @@
     )
   )
 
-  (module microswitch_tht (layer Gorna) (tedit 54737ED1) (tstamp 54738705)
+  (module microswitch_tht (layer Gorna) (tedit 5485FA53) (tstamp 54738705)
     (at 268.75 138.5 90)
     (path /544A32E9)
     (fp_text reference SW1 (at -0.4 -5.75 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SW_PUSH_4PIN (at 0 -4.05 90) (layer F.SilkS)
+    (fp_text value RESET (at 0 -4.9 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0 -1.5) (layer F.SilkS) (width 0.15))
@@ -1045,7 +1045,7 @@
     )
   )
 
-  (module DPAK2 (layer Gorna) (tedit 451BAACE) (tstamp 545B7A67)
+  (module DPAK2 (layer Gorna) (tedit 5485F9D5) (tstamp 545B7A67)
     (at 260 111.2 90)
     (descr "MOS boitier DPACK G-D-S")
     (tags "CMD DPACK")
@@ -1054,7 +1054,7 @@
     (fp_text reference U1 (at 0 -10.414 90) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.2032)))
     )
-    (fp_text value LD1117DT33 (at 0 -2.413 90) (layer F.SilkS)
+    (fp_text value LD1117DT33 (at -4.65 -2.15 180) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 1.397 -1.524) (end 1.397 1.651) (layer F.SilkS) (width 0.127))
@@ -1087,15 +1087,15 @@
     )
   )
 
-  (module C1V5 (layer Gorna) (tedit 545EA305) (tstamp 545B7A6F)
+  (module C1V5 (layer Gorna) (tedit 5485F9F0) (tstamp 545B7A6F)
     (at 255 103.75)
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /54491AB2)
-    (fp_text reference C2 (at 0 -1.26746 90) (layer F.SilkS)
+    (fp_text reference C2 (at -3.275 -0.525 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value 10uF (at 0 1.27) (layer F.SilkS)
+    (fp_text value 10uF (at 0 1.27) (layer F.SilkS) hide
       (effects (font (size 0.762 0.635) (thickness 0.127)))
     )
     (fp_text user + (at -2.286 0) (layer F.SilkS)
@@ -1117,15 +1117,15 @@
     )
   )
 
-  (module C1V5 (layer Gorna) (tedit 546F0FA2) (tstamp 545B7A77)
+  (module C1V5 (layer Gorna) (tedit 5485FA03) (tstamp 545B7A77)
     (at 262.25 103.75)
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /54491AA5)
-    (fp_text reference C1 (at 0.8 1.1) (layer F.SilkS)
+    (fp_text reference C1 (at -3.425 -0.75) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value 10uF (at 0 1.27) (layer F.SilkS)
+    (fp_text value 10uF (at 0 1.27) (layer F.SilkS) hide
       (effects (font (size 0.762 0.635) (thickness 0.127)))
     )
     (fp_text user + (at -2.286 0) (layer F.SilkS)
@@ -1147,7 +1147,7 @@
     )
   )
 
-  (module PIN_ARRAY_4x1 (layer Gorna) (tedit 54737E22) (tstamp 54738729)
+  (module PIN_ARRAY_4x1 (layer Gorna) (tedit 5485FA7F) (tstamp 54738729)
     (at 199.9 130 270)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
@@ -1155,7 +1155,7 @@
     (fp_text reference P10 (at -0.4 -4.6 270) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value Length_sen (at 0.2 -2.8 270) (layer F.SilkS)
+    (fp_text value Length_sen (at 0 -3.225 270) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 5.08 1.27) (end -5.08 1.27) (layer F.SilkS) (width 0.254))
@@ -1199,13 +1199,13 @@
     )
   )
 
-  (module LQFP64   locked (layer Gorna) (tedit 546BA11D) (tstamp 545EA0D5)
+  (module LQFP64   locked (layer Gorna) (tedit 5485F9C8) (tstamp 545EA0D5)
     (at 239.1 125.1 90)
     (path /5447853B)
-    (fp_text reference U3 (at 0 1.27 180) (layer F.SilkS)
+    (fp_text reference U3 (at 2.825 -8.6 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2)))
     )
-    (fp_text value STM32F100RB (at 0 -0.635 180) (layer F.SilkS)
+    (fp_text value STM32F100 (at 5.2 -11.35 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.2)))
     )
     (fp_line (start -5 4.75) (end -5 -4.75) (layer F.SilkS) (width 0.2))
@@ -1480,14 +1480,14 @@
     )
   )
 
-  (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 546BA067)
+  (module SM1206 (layer Gorna) (tedit 5485F8FD) (tstamp 546BA067)
     (at 227.7 129.75 180)
     (path /546B9E9B)
     (attr smd)
-    (fp_text reference C11 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference C11 (at -1.675 -2.075 180) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value 100nF (at 0 0 180) (layer F.SilkS) hide
+    (fp_text value 100nF (at 4.6 0.25 180) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_line (start -2.54 -1.143) (end -2.54 1.143) (layer F.SilkS) (width 0.127))
@@ -1542,14 +1542,14 @@
     )
   )
 
-  (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 546BA07F)
+  (module SM1206 (layer Gorna) (tedit 5485F977) (tstamp 546BA07F)
     (at 250.55 121.35)
     (path /546B9EA7)
     (attr smd)
-    (fp_text reference C10 (at 0 0) (layer F.SilkS)
+    (fp_text reference C10 (at -2.1 -1.875) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value 100nF (at 0 0) (layer F.SilkS) hide
+    (fp_text value 100nF (at 3.125 -1.825) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_line (start -2.54 -1.143) (end -2.54 1.143) (layer F.SilkS) (width 0.127))
@@ -1573,14 +1573,14 @@
     )
   )
 
-  (module SM1206 (layer Gorna) (tedit 42806E24) (tstamp 546BA08B)
+  (module SM1206 (layer Gorna) (tedit 5485F97A) (tstamp 546BA08B)
     (at 250.55 127.6)
     (path /546B9EAD)
     (attr smd)
-    (fp_text reference C13 (at 0 0) (layer F.SilkS)
+    (fp_text reference C13 (at -1.225 2.175) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
-    (fp_text value 100nF (at 0 0) (layer F.SilkS) hide
+    (fp_text value 100nF (at 1.975 3.475) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_line (start -2.54 -1.143) (end -2.54 1.143) (layer F.SilkS) (width 0.127))
@@ -1604,11 +1604,11 @@
     )
   )
 
-  (module SM1206 (layer Dolna) (tedit 42806E24) (tstamp 546BA575)
+  (module SM1206 (layer Dolna) (tedit 5485FA39) (tstamp 546BA575)
     (at 233.25 108.75 90)
     (path /546BA51D)
     (attr smd)
-    (fp_text reference C14 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference C14 (at 3.8 0.25 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 100nF (at 0 0 90) (layer B.SilkS) hide
@@ -1643,18 +1643,9 @@
   (gr_line (start 264.8 108.35) (end 264.8 141.35) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 204.8 108.35) (end 264.8 108.35) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 204.8 141.35) (end 204.8 108.35) (angle 90) (layer Dwgs.User) (width 0.2))
-  (gr_text "not fitted\n" (at 275.75 145.25) (layer Gorna)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
-  (gr_text "NAPED\n" (at 288.5 128.5) (layer Dwgs.User)
-    (effects (font (size 3 3) (thickness 0.3)))
-  )
-  (gr_text SKRET (at 180 126.5) (layer Dwgs.User)
-    (effects (font (size 3 3) (thickness 0.3)))
-  )
 
-  (segment (start 214.975 110.325) (end 214.975 100.025) (width 0.508) (layer Dolna) (net 1) (status 800000))
-  (segment (start 214.975 100.025) (end 215 100) (width 0.508) (layer Dolna) (net 1) (tstamp 5480A187) (status C00000))
+  (segment (start 214.975 110.325) (end 214.975 100.025) (width 0.508) (layer Dolna) (net 1))
+  (segment (start 214.975 100.025) (end 215 100) (width 0.508) (layer Dolna) (net 1) (tstamp 5480A187))
   (segment (start 230.475 117.925) (end 222.575 117.925) (width 0.508) (layer Dolna) (net 1))
   (segment (start 230.590788 117.809212) (end 230.475 117.925) (width 0.254) (layer Gorna) (net 1) (tstamp 5480A16F))
   (via (at 230.475 117.925) (size 0.889) (layers Gorna Dolna) (net 1))
@@ -2029,7 +2020,7 @@
   (segment (start 199.9 106.35) (end 203.5 102.75) (width 0.508) (layer Gorna) (net 12) (tstamp 54738EF6))
   (segment (start 229.0825 106.66) (end 228.4475 106.66) (width 0.254) (layer Gorna) (net 12))
   (segment (start 254.18 122.29) (end 255.325 123.435) (width 0.508) (layer Dolna) (net 13))
-  (segment (start 252.201 126.124) (end 252.201 127.6) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A0A4) (status 800000))
+  (segment (start 252.201 126.124) (end 252.201 127.6) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A0A4))
   (segment (start 252.675 125.65) (end 252.201 126.124) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A0A1))
   (segment (start 253.675 125.65) (end 252.675 125.65) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A09C))
   (segment (start 254.875 124.45) (end 253.675 125.65) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A09B))
@@ -2045,13 +2036,13 @@
   (segment (start 222.62 143.89) (end 222.62 138.59) (width 0.508) (layer Gorna) (net 13) (tstamp 548092EC))
   (segment (start 222.61 134.89) (end 222.65 134.85) (width 0.508) (layer Dolna) (net 13) (tstamp 5480A036))
   (segment (start 216.05 143.17) (end 219.095 143.17) (width 0.508) (layer Gorna) (net 13))
-  (segment (start 222.62 144.095) (end 222.62 145) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A01E) (status 800000))
+  (segment (start 222.62 144.095) (end 222.62 145) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A01E))
   (segment (start 221.925 143.4) (end 222.62 144.095) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A01B))
   (segment (start 219.325 143.4) (end 221.925 143.4) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A019))
   (segment (start 219.095 143.17) (end 219.325 143.4) (width 0.508) (layer Gorna) (net 13) (tstamp 5480A016))
   (segment (start 212.46 143.575) (end 212.46 143.57) (width 0.508) (layer Dolna) (net 13))
   (segment (start 212.46 143.57) (end 212.86 143.17) (width 0.508) (layer Dolna) (net 13) (tstamp 5480A007))
-  (segment (start 199.9 140.3) (end 205.68 140.3) (width 0.508) (layer Dolna) (net 13) (status 400000))
+  (segment (start 199.9 140.3) (end 205.68 140.3) (width 0.508) (layer Dolna) (net 13))
   (segment (start 205.68 140.3) (end 205.69 140.31) (width 0.508) (layer Dolna) (net 13) (tstamp 54809FF3))
   (segment (start 205.68 140.3) (end 205.69 140.31) (width 0.254) (layer Dolna) (net 13) (tstamp 5480931F))
   (via (at 205.69 140.31) (size 0.889) (layers Gorna Dolna) (net 13))
